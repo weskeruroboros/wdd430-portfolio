@@ -1,13 +1,5 @@
-"use client";
-
-import { useState, useEffect } from 'react';
-
-export default function Footer() {  
-  const [currentYear, setCurrentYear] = useState<number>(2026);
-
-  useEffect(() => {
-    setCurrentYear(new Date().getFullYear());
-  }, []);
+export default function Footer() {
+  const currentYear = 2026;
 
   return (
     <footer className="bg-gray-800 text-white py-4 mt-12">
