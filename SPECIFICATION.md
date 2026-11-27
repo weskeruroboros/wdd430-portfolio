@@ -20,3 +20,7 @@
 * **Task Breakdown Workflow:** Add, edit, and categorize micro-tasks into status boards.
 * **Focus Sprint Timer:** Interactive countdown timer tailored for short sprint sessions.
 * **Progress Dashboard:** Visual summary tracking daily completed habits and streaks.
+## W05 Sprint Update: Authentication & Metadata
+- Added Auth.js v5 configuration (`auth.ts`) and `/api/auth/[...nextauth]` route handler.
+- Standardized Next.js `metadataBase`, page title templates, and Open Graph metadata across `app/layout.tsx` and `app/about/page.tsx`.
+- Carryover for W06: Protect sprint mutation routes and connect user sessions to FocusStride tasks.
